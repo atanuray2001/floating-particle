@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Kanit:wght@400;700;800&family=Poppins:wght@400;700&family=Raleway:wght@200;400;900&family=Teko:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    position: relative;
+    overflow: hidden;
+}
+
+#page {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+canvas {
+    width: 100vw;
+    height: 100vh;
+    z-index: 9;
+}
+
+nav {
+    width: 40%;
+    height: 50px;
+    background-color: rgba(182, 187, 216, 0.459);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav_links>a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+nav>button {
+    padding: 8px 10px;
+    background-color: rgb(16, 155, 34);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#page>h1 {
+    font-size: 60px;
+    position: absolute;
+    z-index: 99;
+    text-align: center;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#page2 {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(26, 41, 59);
+    position: relative;
+}
+
+.page2_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    z-index: 99;
+}
+
+.page2_text h1 {
+    font-size: 60px;
+}
+
+.page2_text h4 {
+    font-size: 30px;
+    white-space: nowrap;
+    font-weight: normal;
+
+}
+
+.trans_page {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+}
+
+.trans_page2 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    z-index: 99;
+}
